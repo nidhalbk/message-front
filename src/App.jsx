@@ -5,7 +5,11 @@ import Messaging from './Components/Messaging/Messaging';
 function App() {
   return (
     <div className="App">
-      <Messaging />
+      <div className="container-fluid h-100">
+        <div className="row justify-content-center h-100">
+          <Messaging />
+        </div>
+      </div>
     </div>
   );
 }
