@@ -1,9 +1,11 @@
 import React from 'react';
+import './App.css';
+import Messaging from './Components/Messaging/Messaging';
 
 function App() {
   return (
     <div className="App">
-      <h1>Messaging App</h1>
+      <Messaging />
     </div>
   );
 }
