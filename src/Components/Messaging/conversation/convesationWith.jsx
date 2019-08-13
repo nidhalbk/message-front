@@ -1,7 +1,9 @@
 import React from 'react';
 
 
-const convesationWith = ({ className, pic, msg, at }) => (
+const convesationWith = ({
+  className, pic, msg, at,
+}) => (
   <div className={className}>
     <div className="d-flex justify-content-start mb-4">
       <div className="img_cont_msg">

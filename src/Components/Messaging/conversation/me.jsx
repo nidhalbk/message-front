@@ -1,6 +1,8 @@
 import React from 'react';
 
-const Me = ({ className, pic, msg, at }) => (
+const Me = ({
+  className, pic, msg, at,
+}) => (
   <div className={className}>
     <div className="d-flex justify-content-end mb-4">
       <div className="msg_cotainer_send">

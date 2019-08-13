@@ -17,6 +17,7 @@ settings: {
 },
 "plugins": [
   "react",
+  "react-hooks",
 ],
 "parserOptions": {
   "ecmaVersion": 6,
@@ -26,6 +27,7 @@ settings: {
   }
 },
 "rules": {
+  "react-hooks/rules-of-hooks": "error",
   "arrow-parens": [
     "error",
     "always"
@@ -39,6 +41,13 @@ settings: {
     2,
     "always-multiline"
   ],
+  "max-len": [
+    "error",
+    {
+      "code": 200,
+      "ignoreUrls": true
+    }
+    ],
   "indent": [
     2,
     2,

@@ -3,9 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@apollo/react-hooks": "^3.0.0",
+    "apollo-boost": "^0.4.3",
+    "apollo-cache-inmemory": "^1.6.2",
+    "apollo-cache-persist": "^0.1.1",
+    "apollo-link": "^1.2.12",
+    "apollo-link-http": "^1.5.15",
+    "apollo-link-state": "^0.4.2",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "graphql": "^14.4.2",
+    "lodash": "^4.17.15",
     "react": "^16.8.6",
+    "react-apollo": "^2.5.8",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "styled-components": "^4.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
